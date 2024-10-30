@@ -19,7 +19,7 @@ The **AWS Resource Tracker** is a shell script that helps you manage and track y
 ## Installation
 
 1. Clone the repository to your local machine:
-   git clone [<repository-url>](https://github.com/Achyut132002/AWS-resource-tracker.git)
+   git clone https://github.com/Achyut132002/AWS-resource-tracker.git
 
 2. Navigate to the project directory:
    cd AWS-resource-tracker
