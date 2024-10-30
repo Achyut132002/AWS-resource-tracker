@@ -2,7 +2,7 @@
 
 ## Description
 
-The **AWS Resource Tracker** is a shell script that helps you manage and track your AWS resources efficiently. It generates a report of all your AWS resources, including S3 buckets and EC2 instances, and uploads this report to an S3 bucket. Additionally, it triggers an AWS Lambda function to send a notification with a signed URL to access the report via email.
+The **AWS Resource Tracker** is a shell script that helps you manage and track your AWS resources efficiently. It is automatically generate a report of all your AWS resources using a crob job scheduling, including S3 buckets and EC2 instances, and uploads this report to an S3 bucket. Additionally, it triggers an AWS Lambda function to send a notification with a signed URL to access the report via email.
 
 ## Features
 
@@ -13,7 +13,7 @@ The **AWS Resource Tracker** is a shell script that helps you manage and track y
 
 ## Prerequisites
 
-- AWS CLI installed and configured on your machine.
+- AWS CLI and jq installed and configured on your machine.
 - AWS IAM permissions to access S3, EC2, Lambda, and SES services.
 
 ## Installation
